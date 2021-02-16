@@ -1,0 +1,116 @@
+.banner {
+    position: relative;
+}
+
+
+#bannerImage {
+    z-index: -1;
+    display:block;
+}
+
+.movieInfo {
+    position: absolute;
+    top: 0px;
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+}
+
+.title {
+    color: white;
+    font-size: 3rem;
+    margin-top: 10%;
+    width: 40%;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 10%;
+}
+
+.iconBanner {
+    margin-right: 5px;
+    align-self: center;
+    font-size: 2.5rem !important;
+    padding: 0;
+    
+}
+
+.infoButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem !important;
+    font-weight: bold;
+}
+
+button {
+    border: none;
+    margin-right: 20px;
+    border-radius: 3px;
+    width: 230px;
+    height: 55px;
+    color: white;
+    transition: background-color 0.1s;
+}
+
+button:focus {
+    outline: none;
+}
+
+.whiteOnHover:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.description {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    width: 40%;
+}
+
+.age {
+    position: absolute;
+    right: 0;
+    bottom: 400px;
+    height: 45px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+}
+
+.whiteLine {
+    height: 100%;
+    width: 3px;
+    background-color: whitesmoke;
+}
+
+.ageText {
+    margin-left: 25px;
+    font-size: 1.3rem;
+}
+
+.fadeBlack{
+    position: absolute;
+    bottom:0px;
+    height: 30%;
+    width: 100%;
+
+    background: -webkit-linear-gradient(top, 
+    rgba(0, 0, 0, 0), 
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 1)
+  );
+}
+
+.transparentBlack {
+    background-color: rgba(80, 72, 72, 0.753);
+}
+
+
+

@@ -1,0 +1,58 @@
+.row {
+    padding: 0 20px;
+}
+
+
+.rowTitle {
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.externalContainer{
+    position: relative;
+    width: 100%;
+}
+
+.rowContainer {
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+}
+
+.rowContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.moviePoster {
+    width: 25%;
+    max-width: 200px;
+    margin-right: 10px;
+}
+
+.leftArrow {
+    left: 0;
+}
+
+.rightArrow {
+    right: 0;
+}
+
+.arrowBar {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    height: 100%;
+    width: 50px;
+    background-color: rgba(20, 19, 19, 0.466);
+}
+
+.arrowIcon {
+    font-size: 2rem !important;
+    color: white;
+    align-self: center;
+}
