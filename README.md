@@ -4,7 +4,7 @@ Netflix home page clone made with React and TMDB API (created for exercize purpo
 
 ## Install
 
-First, be sure to have Node.js installed. In the root of the project run:
+First, be sure to have Node 16 installed. In the root of the project run:
 
 ```
 npm install
@@ -22,6 +22,6 @@ Launch the project through the following command:
 
 ```
 npm start
-``` 
+```
 
 This should launch the web app on http://localhost:3000.

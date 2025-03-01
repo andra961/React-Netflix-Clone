@@ -1,4 +1,5 @@
-.rows{
-    position: relative;
-    top: -200px;
+.rows {
+  position: relative;
+  margin-top: calc(100vw / 2.2);
+  margin-bottom: 16px;
 }

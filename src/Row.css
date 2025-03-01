@@ -17,17 +17,12 @@
 .rowContainer {
   display: flex;
   overflow-x: auto;
+  gap: 10px;
   width: 100%;
 }
 
 .rowContainer::-webkit-scrollbar {
   display: none;
-}
-
-.moviePoster {
-  width: 25%;
-  max-width: 200px;
-  margin-right: 10px;
 }
 
 .leftArrow {

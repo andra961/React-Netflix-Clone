@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 
-import requests from "./API_CALL";
+import { getImageSrc } from "./API_CALL";
 
 import "./Row.css";
 
@@ -83,13 +83,15 @@ function Row({ fetchUrl, category }) {
       >
         <div ref={movieRow} className="rowContainer">
           {movies.map((movie) => {
+            console.log("img");
             return (
               <img
                 key={movie.id}
                 id={movie.id}
-                className="moviePoster"
-                src={requests.imageBase + movie.poster_path}
-                alt=""
+                loading="lazy"
+                src={getImageSrc(movie.poster_path, 400)}
+                alt={movie.title}
+                width="200px"
               ></img>
             );
           })}
